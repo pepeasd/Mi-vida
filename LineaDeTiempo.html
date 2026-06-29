@@ -90,20 +90,20 @@
       {
         fecha: "Capítulo 9",
         titulo: "Nuestras canciones",
-        texto: "Nuestras canciones siempre podrán acompañarnos en cada momento de nuestras vidas. Escucharlas juntos, compartir ese instante y pasar tiempo a tu lado hace que cada melodía tenga un significado especial para nosotros. Cada canción se convierte en un recuerdo más de nuestra historia y en una forma de sentirnos cerca el uno del otro.Junto con las musicas que se irán uniendo a nuestro camino juntos 🎶",
+        texto: "Nuestras canciones siempre podrán acompañarnos en cada momento de nuestras vidas. Escucharlas juntos, compartir ese instante y pasar tiempo a tu lado hace que cada melodía tenga un significado especial para nosotros. Cada canción se convierte en un recuerdo más de nuestra historia y en una forma de sentirnos cerca el uno del otro. 🎶",
         songs: [
-          { titulo: "Chachachá — Joséan Log", imagen: "Cap9-Img1.jpg", audio: "cancion1.mp3" },
-          { titulo: "Enamorado tuyo — El Cuarteto De Nos", imagen: "Cap9-Img3.jpg", audio: "cancion5.mp3" },
-          { titulo: "Beso — Joséan Log", imagen: "Cap9-Img1.jpg", audio: "cancion3.mp3" },
-          { titulo: "Frances Limón — Los Enanitos Verdes", imagen: "Cap9-Img4.jpg", audio: "cancion6.mp3" },
-          { titulo: "One And Only Love (feat. Natalia Lafourcade)", imagen: "Cap9-Img2.jpg", audio: "cancion4.mp3" },
-          { titulo: "Doma — Joséan Log", imagen: "Cap9-Img1.jpg", audio: "cancion2.mp3" }
+          { titulo: "Chachachá — Joséan Log", imagen: "Cap9-Img1.png", audio: "cancion1.mp3" },
+          { titulo: "Enamorado tuyo — El Cuarteto De Nos", imagen: "Cap9-Img3.png", audio: "cancion5.mp3" },
+          { titulo: "Beso — Joséan Log", imagen: "Cap9-Img1.png", audio: "cancion3.mp3" },
+          { titulo: "Frances Limón — Los Enanitos Verdes", imagen: "Cap9-Img4.png", audio: "cancion6.mp3" },
+          { titulo: "One And Only Love (feat. Natalia Lafourcade)", imagen: "Cap9-Img2.png", audio: "cancion4.mp3" },
+          { titulo: "Doma — Joséan Log", imagen: "Cap9-Img1.png", audio: "cancion2.mp3" }
         ]
       },
       {
         fecha: "Capítulo 10",
         titulo: "Películas y series juntos",
-        texto: "Estar cada momento contigo viendo películas y series siempre es mi parte favorita, pues es uno de los momentos donde nuestra cercanía estuvo palpable y disfrutaste del ambiente que tuvimos juntos, a solas. Estar contigo siempre es bello. Junto con nuestras pelis/serias favoritas que se sumaran a nuestro camino juntos. 🎬",
+        texto: "Estar cada momento contigo viendo películas y series siempre es mi parte favorita, pues es uno de los momentos donde nuestra cercanía estuvo palpable y disfrutaste del ambiente que tuvimos juntos, a solas. Estar contigo siempre es bello.",
         images: ["Cap10-Img1.jpg", "Cap10-Img2.jpg", "Cap10-Img3.jpg", "Cap10-Img4.jpg"]
       },
       {
@@ -291,7 +291,7 @@
     btnContinuar.addEventListener('click', () => {
       const estado = historial[posicion];
       if (btnContinuar.dataset.fin === 'true') {
-        window.location.href = "Carta.html";
+        window.location.href = "CartaFinal.html";
       } else {
         irA({ tipo: 'detalle', indice: estado.indice + 1 });
       }
